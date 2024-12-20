@@ -29,7 +29,7 @@ def products_id(request,id):
 
         discount_10 = total_bill -100
         discount_20 = total_bill -400
-        if (total_bill>000 and total_bill<2000):
+        if (total_bill>1000 and total_bill<2000):
               total_bill = discount_10
         elif (total_bill>2000):
               total_bill = discount_20
